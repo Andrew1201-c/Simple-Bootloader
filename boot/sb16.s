@@ -14,8 +14,6 @@ _start:
     mov si, bootmsg
     call _write
 
-    call _kernel
-
 _write:
     lodsb
     or al, al
